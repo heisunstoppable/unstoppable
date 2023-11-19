@@ -1,0 +1,29 @@
+/* for desktopview */
+@media screen and (min-width:768px) {
+    .left-nav{
+        display: block;
+    }
+
+    .right-nav{
+        margin-left: 20px;
+    }
+    .righty{
+        background-color: white;
+        width: 350px;
+        margin-left: 20px;
+        height: 350px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .righty i{
+        display: block;
+        margin: 30px 0px 0px 15px;
+    }
+    .righty img{
+        width: 80%;
+    }
+    .tryflex{
+        display: flex;
+        margin-top: 10px;
+    }
+}
