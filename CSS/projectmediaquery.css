@@ -1,5 +1,11 @@
 /* for desktopview */
 @media screen and (min-width:768px) {
+    .dropdown{
+        display: none;
+    }
+    .top-nav{
+        visibility: visible;
+    }
     .left-nav{
         display: block;
     }
@@ -25,5 +31,83 @@
     .tryflex{
         display: flex;
         margin-top: 10px;
+    }
+    .footer-container{
+        display: none;
+    }
+    footer{
+        display: flex;
+        text-align: center;
+        margin: 10px 0px 10px 25%;
+    }
+    .gallery-wrap{
+        display: flex;
+        align-items: center;
+    }
+    .gallery{
+        width: 100%;
+        /* margin-left: 15%; */
+        overflow-x: scroll;
+        display: flex;
+    }
+    #backBtn, #nextBtn{
+        display: block;
+    }
+    .gallery div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 20px;
+        padding: 10px;
+        flex: none;
+    }
+    .lapse-container{
+        display:none;
+    }
+
+
+    .godmode-container{
+        display:block;
+    }
+    .mount{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px; 
+    }
+    .godmode-content{
+        margin-left: 10%;
+    }
+    .godmode-content a{
+        color: greenyellow;
+        text-align: center;
+    }
+    .locate{
+        display: flex;
+        margin: 20px 0px 0px 70px;
+        text-align: justify;
+    }
+    .locate p{
+        margin-left: 15px;
+    }
+    .mode-con{
+        margin: 0px 0px 0px 5%;
+    }
+    .mode-con h4{
+        color: greenyellow;
+        font-size: 25px;
+    }
+    .mode{
+        padding-top: 10px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .mode a{
+        color: black;
+        font-size: 18px;
+    }
+    .mode a:hover{
+        color: greenyellow;
+        text-decoration: underline;
+        font-size: 18px;
     }
 }
